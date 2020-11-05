@@ -5,17 +5,42 @@
     width: 800px;
 } */
 
-div {
+body > div {
     display:inline-block;
     background-color: violet;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
 }
-
-h1 {
-    float: left;
-}
-
-p {
-    float:right;
-}
+    header{
+        display:inline-block;
+        width: 100%;
+    }
+        header > img {
+            display:inline-block;
+            float: left;
+        }
+        nav {
+            display:inline-block;
+            float: right;
+        }
+            a {
+                display:inline-block;
+            }
+    main {
+        display:inline-block;
+        width: 100%;
+    }
+        main > div {
+            display:inline-block;
+            float: left;
+        }
+            h1 {
+                display:inline-block;
+            }
+            p {
+                display:inline-block;
+            }
+        main > img {
+            display:inline-block;
+            float: right;
+        }
