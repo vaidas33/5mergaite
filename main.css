@@ -14,7 +14,6 @@ body > div {
     header{
         display:inline-block;
         width: 100%;
-        background-color:yellow;
     }
         header > img {
             display:inline-block;
@@ -24,21 +23,19 @@ body > div {
         nav {
             display:inline-block;
             float: right;
-            background-color:red;
+            margin-top: 10px;
         }
             a {
                 display:inline-block;
                 line-height:20px;
                 padding: 10px;
                 margin-left:15px;
-                background-color:blue;
                 text-decoration: none;
                 float: left;
                 font-size: 18px;
 
             }
             a:nth-of-type(5){
-                background-color:green;
                 padding-left: 30px;
                 padding-right: 30px;
                 margin-left: 30px;
