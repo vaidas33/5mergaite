@@ -1,0 +1,21 @@
+/* div {
+    background-color: violet;
+    display:block;
+    margin:auto;
+    width: 800px;
+} */
+
+div {
+    display:inline-block;
+    background-color: violet;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+}
+
+h1 {
+    float: left;
+}
+
+p {
+    float:right;
+}
